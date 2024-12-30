@@ -76,19 +76,28 @@ function Card() {
         >
           <p className="flex items-center">
             <span className="mr-2">
-              <img src="/images/icon-check.svg" alt="icon-check" />
+              <img
+                src="/interactive-pricing-component/images/icon-check.svg"
+                alt="icon-check"
+              />
             </span>
             Unlimited websites
           </p>
           <p className="flex items-center">
             <span className="mr-2">
-              <img src="/images/icon-check.svg" alt="icon-check" />
+              <img
+                src="/interactive-pricing-component/images/icon-check.svg"
+                alt="icon-check"
+              />
             </span>
             100% data ownership
           </p>
           <p className="flex items-center">
             <span className="mr-2">
-              <img src="/images/icon-check.svg" alt="icon-check" />
+              <img
+                src="/interactive-pricing-component/images/icon-check.svg"
+                alt="icon-check"
+              />
             </span>
             Email reports
           </p>
