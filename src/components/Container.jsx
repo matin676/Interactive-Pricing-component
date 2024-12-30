@@ -11,7 +11,7 @@ function Container({ children }) {
         />
         <div className="absolute inset-0 m-auto -mt-32 items-center justify-center flex flex-col max-md:mt-8">
           <img
-            src="/images/pattern-circles.svg"
+            src={import.meta.env.BASE_URL + "/images/pattern-circles.svg"}
             alt="circle pattern"
             className="max-md:w-[5rem]"
           />
