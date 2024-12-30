@@ -1,5 +1,5 @@
 import React from "react";
-import circlePattern from "../images/pattern-circles.svg";
+import circlePattern from "/images/pattern-circles.svg";
 
 function Container({ children }) {
   return (
