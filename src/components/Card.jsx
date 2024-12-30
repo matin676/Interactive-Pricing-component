@@ -77,7 +77,7 @@ function Card() {
           <p className="flex items-center">
             <span className="mr-2">
               <img
-                src="/interactive-pricing-component/images/icon-check.svg"
+                src={import.meta.env.BASE_URL + "/images/icon-check.svg"}
                 alt="icon-check"
               />
             </span>
@@ -86,7 +86,7 @@ function Card() {
           <p className="flex items-center">
             <span className="mr-2">
               <img
-                src="/interactive-pricing-component/images/icon-check.svg"
+                src={import.meta.env.BASE_URL + "/images/icon-check.svg"}
                 alt="icon-check"
               />
             </span>
@@ -95,7 +95,7 @@ function Card() {
           <p className="flex items-center">
             <span className="mr-2">
               <img
-                src="/interactive-pricing-component/images/icon-check.svg"
+                src={import.meta.env.BASE_URL + "/images/icon-check.svg"}
                 alt="icon-check"
               />
             </span>

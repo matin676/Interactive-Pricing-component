@@ -5,7 +5,7 @@ function Container({ children }) {
     <>
       <div className="relative w-full h-full bg-cover max-md:h-[40vh]">
         <img
-          src="/interactive-pricing-component/images/bg-pattern.svg"
+          src={import.meta.env.BASE_URL + "/images/bg-pattern.svg"}
           alt="bg pattern"
           className="bg-cover w-full h-full"
         />
