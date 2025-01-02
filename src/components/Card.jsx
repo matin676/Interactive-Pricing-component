@@ -15,7 +15,7 @@ function Card() {
             100k PAGEVIEWS
           </p>
           <h2 className="text-3xl font-bold max-md:mt-4">
-            ${price}.00
+            ${billing ? price * 12 - price * 12 * (25 / 100) : price}.00
             <span
               className="font-bold text-sm"
               style={{ color: "hsl(225, 20%, 60%)" }}
@@ -28,7 +28,7 @@ function Card() {
           type="range"
           name="slider"
           value={price}
-          max={100}
+          max={40}
           onChange={(e) => setPrice(e.target.value)}
           style={{ backgroundColor: "hsl(224, 65%, 95%)" }}
           className="slider w-full h-2 rounded-lg appearance-none cursor-pointer mt-10 mb-10 accent-teal-600"
